@@ -1,9 +1,6 @@
-import os
-f=open('E:\\123\操作步骤.docx','w')
-k="abcdefg"
-f.write(str(k))
-f.close()
-f=open('E:\\123\操作步骤.docx')
-t=f.read()
-print(str(t))
-f.close()
+import test1
+t=test1.t
+print(t)
+t.update(b=3)
+print(t)
+from baibaoxiang import baibaoxiangInterface

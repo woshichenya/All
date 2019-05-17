@@ -1,7 +1,9 @@
 from beifen import baibaoxiang
 
 url="http://sso.vdongchina.com"
-go= baibaoxiang.geturl(url)
+url_dingzhi="http://sso.thefangtalk.com/"
+go= baibaoxiang.geturl(url_dingzhi)
+
 wchen_vdong={
     "username":"vdongshops",
     "password":"1234567890",
@@ -43,7 +45,7 @@ plus_test={
 
 
 
-ho=wchen_vdong
+ho=wchen_plus
 go.Sid("inphoneinput","用户名",ho["username"],"输入用户名","无法输入用户名")
 go.Sid("pasword","密码",ho["password"],"输入密码","无法输入密码")
 # go.Cxpath("/html/body/div[1]/div[1]/div[1]/div[6]/button","登录","登录成功","登录失败")

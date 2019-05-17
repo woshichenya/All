@@ -52,6 +52,7 @@ for i in range (1,2):
     '''
     login_interface = "/api/group/adduser"
     user_name = "人" + str(shouji)
+    print(shouji)
     data = {
         "account": shouji,  # 登录账号
         "password": "1234567a",  # 密码
