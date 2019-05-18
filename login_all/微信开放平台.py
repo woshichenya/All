@@ -16,7 +16,7 @@ china2={
 }
 url1=go.llq.current_url
 go.llq.maximize_window()
-ho = china
+ho = china2
 go.Cid("loginBarBt","登录框","打开登录框","无法找到登录按钮")
 go.STag_name_zidingyi("input","placeholder","请填写登录邮箱",ho["username"],"用户名输入框","ok","no ok")
 go.STag_name_zidingyi("input","placeholder","请填写密码",ho["password"],"用户名输入框","ok","no ok")
