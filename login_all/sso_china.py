@@ -8,12 +8,13 @@ wchen_vdong={
     "username":"vdongshops",
     "password":"1234567890",
 }
-wchen_plus={
-    "username":"18000000356",
-    "password":"1234567a",
-}
+
 vchen_plus2={
     "username":"18000000486",
+    "password":"1234567a",
+}
+vchen_plus3={
+    "username":"18000000512",
     "password":"1234567a",
 }
 plus={
@@ -29,7 +30,6 @@ plus_shop={
     "password":"1234567a",
 }
 
-
 plus_admin={
     "username":"account",
     "password":"a12345678",
@@ -39,11 +39,14 @@ plus_daili = {
     "password": "1234567a",
 }
 plus_test={
-    "username":"18000000449",
+    "username":"18000000511",
     "password":"1234567a",
 }
 
-
+plus_kehu_xiaofang={
+    "username":"13431043303",
+    "password":"Tft20190515",
+}
 
 ho=vchen_plus2
 go.Sid("inphoneinput","用户名",ho["username"],"输入用户名","无法输入用户名")
