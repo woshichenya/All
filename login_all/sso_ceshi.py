@@ -30,6 +30,10 @@ vchen_plus={
     "username":"18000000483",
     "password":"1234567a",
 }
+plus_test={
+    "username":"18000000512",
+    "password":"1234567a",
+}
 
 
 

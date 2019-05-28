@@ -2,7 +2,7 @@ from beifen import baibaoxiang
 
 url="http://test-sso.vdongchina.com"
 url_dingzhi="http://test-sso.molixyx.com"
-go= baibaoxiang.geturl(url)
+go= baibaoxiang.geturl(url_dingzhi)
 vchen_vdong={
     "username":"vdongshopplus",
     "password":"vdong2019",
@@ -49,10 +49,10 @@ plus_daili={
     "password":"1234567a",
 }
 plus_test={
-    "username":"15010530888",
+    "username":"18000000514",
     "password":"1234567a",
 }
-ho=vchen_vdong
+ho=vchen_plus_really
 go.Sid("inphoneinput","用户名",ho["username"],"输入用户名","无法输入用户名")
 go.Sid("pasword","密码",ho["password"],"输入密码","无法输入密码")
 # go.Cxpath("/html/body/div[1]/div[1]/div[1]/div[6]/button","登录","登录成功","登录失败")
