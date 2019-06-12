@@ -1,6 +1,7 @@
 from PIL import Image
 import pytesseract
 import traceback
+
 def get_shoping_img_jiage():
     try:
         # png_names = png_names
@@ -11,9 +12,9 @@ def get_shoping_img_jiage():
         c=open("b.png")
         im = Image.open("b.png")
         print(pytesseract.image_to_string(im))
+        # jiage = pytesseract.image_to_string(im,lang='chi_sim')
         jiage = pytesseract.image_to_string(im)
-        jiage = float(jiage)
-        print("商品价格", jiage, "元")
+
         return jiage
     except Exception as e:
         ee = traceback.format_exc()
