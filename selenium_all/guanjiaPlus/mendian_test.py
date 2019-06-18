@@ -2,6 +2,7 @@ import guanjiaPlus.xiaochengxuguanliyemian
 import traceback
 import time
 from selenium.webdriver.support.ui import Select
+from baibaoxiang import sql
 
 '''调用进入小程序管理页面的脚本'''
 go=guanjiaPlus.xiaochengxuguanliyemian.go

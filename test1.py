@@ -1,3 +1,6 @@
+class ass():
+    def __
+def
 sum_old = []
 sum_new = []
 for x in (0, 1, 2):
