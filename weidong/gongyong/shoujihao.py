@@ -13,3 +13,7 @@ class Shoujihao():
         return shouji
 
 
+if __name__ == "__main__":
+    Shoujihao().shouji()
+
+

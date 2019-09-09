@@ -2,6 +2,12 @@ from baibaoxiang import baibaoxiang
 from login_all.pack.wchat_user import *
 class wchat:
     def __init__(self,user="",username="",password=""):
+        """
+        微信登录脚本，填写微信公众号名称，或者输入用户名密码，即可进行UI自动登录操作——
+        :param user: 填写公众号名称——
+        :param username: 登录账号——
+        :param password: 登录密码——
+        """
         go = baibaoxiang.geturl("https://mp.weixin.qq.com/")
 
         if user != "":

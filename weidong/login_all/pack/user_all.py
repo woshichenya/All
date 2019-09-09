@@ -2,15 +2,22 @@ class china:
 
     url="http://sso.vdongchina.com"
     url_dingzhi = "http://sso.thefangtalk.com/"
-    wchen_vdong = {
+    vchen_vdong = {
         "username": "vdongshops",
         "password": "1234567890",
     }
-    wchen_admin = {
+    vchen_new_vdong = {
+        "username": "18612047646",
+        "password": "1234567890",
+    }
+    vchen_old_vdong = {
+        "username": "18612047646",
+        "password": "1234567890",
+    }
+    vchen_admin = {
         "username": "administrator",
         "password": "xurannan2019",
     }
-
     vchen_plus2 = {
         "username": "18000000486",
         "password": "1234567a",
@@ -22,6 +29,14 @@ class china:
     vchen_plus_really = {
         "username": "18000000356",
         "password": "1234567a",
+    }
+    vchen_plus_really_really = {
+        "username": "18000000527",
+        "password": "1234567a",
+    }
+    vchen_lixiaojun = {
+        "username": "18046521228",
+        "password": "11111111",
     }
     plus = {
         "username": "18811020000",
@@ -35,7 +50,6 @@ class china:
         "username": "18000000355",
         "password": "1234567a",
     }
-
     plus_admin = {
         "username": "account",
         "password": "a12345678",
@@ -48,12 +62,11 @@ class china:
         "username": "18000000356",
         "password": "1234567a",
     }
-
     plus_kehu_xiaofang = {
         "username": "13431043303",
         "password": "Tft20190515",
     }
-    weichen_shop_kehu_xiaofang = {
+    vchen_shop_kehu_xiaofang = {
         "username": "18688900606",
         "password": "a18688900606",
     }
@@ -79,8 +92,20 @@ class test:
         "username": "18871551666",
         "password": "1234567a",
     }
+    vchen_plus2 = {
+        "username": "18000000522",
+        "password": "c1234567",
+    }
+    vchen_plus3 = {
+        "username": "18000000523",
+        "password": "1234567a",
+    }
     vchen_plus_really = {
         "username": "18000000480",
+        "password": "xmm123yj456hy789",
+    }
+    vchen_plus_really_really = {
+        "username": "18000000525",
         "password": "1234567a",
     }
     plus_boss = {
@@ -95,6 +120,10 @@ class test:
         "username": "18000000479",
         "password": "1234567a",
     }
+    plus_shop_really_really = {
+        "username": "18000000524",
+        "password": "1234567a",
+    }
     plus_admin = {
         "username": "17400000000",
         "password": "12345678",
@@ -104,8 +133,8 @@ class test:
         "password": "1234567a",
     }
     plus_test = {
-        "username": "18000000514",
-        "password": "1234567a",
+        "username": "c18000000521",
+        "password": "18000000521",
     }
     plus_boss_yanfa={
         "username": "19900000000",
@@ -115,6 +144,12 @@ class test:
         "username": "demo_001",
         "password": "12345678",
     }
+
+    plus532 = {
+        "username": "18000000532",
+        "password": "12345678",
+    }
+
 
 
 class ceshi:
@@ -127,7 +162,6 @@ class ceshi:
         "username": "maxstone",
         "password": "vdongchina2019",
     }
-
     '''
     plus账号
     '''
@@ -150,4 +184,67 @@ class ceshi:
     plus_test = {
         "username": "18000000512",
         "password": "1234567a",
+    }
+
+class xingneng:
+    url = "http://sso-ceshi.vdongchina.com"
+    vchen_xingneng={
+        "username": "18966668888",
+        "password": "1234567890",
+    }
+    vchen_admin={
+        "username": "maxstone",
+        "password": "a1111111",
+    }
+    vchen_new_kehu={
+        "username": "18966668888",
+        "password": "1234567890",
+    }
+    vchen_old_kehu={
+        "username": "18200001111",
+        "password": "1234567890",
+    }
+    vchen_me_test={
+        "username": "18871551774",
+        "password": "12345678",
+    }
+    plus_admin = {
+        "username": "17400000000",
+        "password": "12345678",
+    }
+    plus_zhiying = {
+        "username": "18000000528",
+        "password": "1234567a",
+    }
+    plus_zhiying_really = {
+        "username": "18000000535",
+        "password": "1234567a",
+    }
+    plus_daili = {
+        "username": "18000000530",
+        "password": "1234567a",
+    }
+    plus_boss = {
+        "username": "18000000531",
+        "password": "a1234567",
+    }
+    vchen_plus_543 = {
+        "username": "18000000548",
+        "password": "1234567a",
+    }
+    vchen_plus_test = {
+            "username": "18000000557",
+            "password": "18000000557a",
+    }
+    vchen_plus_test = {
+            "username": "18000000557",
+            "password": "18000000557a",
+    }
+
+
+class zhanghaoguanli:
+    url = "http://ceshi-customer.vdongchina.com/admin.php"
+    admin = {
+        "username": "admin",
+        "password": "admin",
     }

@@ -19,7 +19,13 @@
 
 
 
-if __name__=="__main__":
-    print(111)
-    print(__name__)
-    import test2
+# if __name__=="__main__":
+#     print(111)
+#     print(__name__)
+#     import test2
+
+
+if int(1):
+    print("int")
+if int("a"):
+    print("str")
